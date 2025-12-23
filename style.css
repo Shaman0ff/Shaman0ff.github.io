@@ -85,3 +85,24 @@ body {
     height: auto;
     margin-top: 10px;
 }
+
+/* Фоны под погоду */
+body.clear {
+    background: linear-gradient(to bottom, #87CEEB, #B0E0E6); /* светло-голубой (солнечно) */
+}
+body.clouds {
+    background: linear-gradient(to bottom, #B0C4DE, #708090); /* серо-голубой (облачно) */
+}
+body.rain,
+body.drizzle {
+    background: linear-gradient(to bottom, #4A6FA6, #1C3A5F); /* тёмно-синий (дождь) */
+}
+body.thunderstorm {
+    background: linear-gradient(to bottom, #564A73, #2C2042); /* фиолетово-серый (гроза) */
+}
+body.snow {
+    background: linear-gradient(to bottom, #A3D9FF, #6ECEDA); /* холодный голубой (снег) */
+}
+body.night {
+    background: linear-gradient(to bottom, #0C1445, #1A237E); /* ночное небо */
+}
